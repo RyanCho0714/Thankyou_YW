@@ -1,1 +1,60 @@
+# ===== Vivado Project Files =====
+*.jou
 *.log
+*.str
+*.zip
+*.bit
+*.bin
+*.mcs
+*.prm
+*.ltx
+*.rpt
+
+# Vivado Project 폴더 (.xpr 프로젝트 사용 시 생성되는 캐시/빌드 폴더)
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/sources_1/ip/**/*.dcp
+.Xil/
+vivado*.jou
+vivado*.log
+vivado_pid*.str
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml
+
+# NGC/EDIF/기타 IP 생성 파일
+*.ngc
+*.edf
+*.edif
+
+# 시뮬레이션 관련
+*.wdb
+*.wcfg
+xsim.dir/
+webtalk*
+*.pb
+*.dbg
+*.jobs/
+
+# ===== 프로젝트 자동 생성 폴더 (관리 방식에 따라 선택) =====
+# .xpr을 커밋하고 나머지는 무시하는 경우 (가장 일반적)
+<project_name>.cache/
+<project_name>.hw/
+<project_name>.ip_user_files/
+<project_name>.runs/
+<project_name>.sim/
+<project_name>.srcs/**/ip/**
+<project_name>.gen/
+
+# ===== OS / 에디터 관련 =====
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ===== 기타 =====
+*.backup.*
+*.jou
